@@ -1,28 +1,24 @@
 export const personalInfo = {
-  name: "Rishikesh S",
-  location: "Coimbatore, India",
-  email: "rkesh2003@gmail.com",
-  github: "https://github.com/rishikesh2003",
-  linkedin: "https://www.linkedin.com/in/rishikeshs/",
+  name: "Natacha de Mar Aguilera García",
+  location: "Madrid, España",
+  email: "mar16natacha@gmail.com",
+  github: "https://github.com/natachamar",
+  linkedin: "https://www.linkedin.com/in/natachaaguilera/",
 };
 
 export const workExperience = [
   {
-    company: "Chatbyte GmbH",
-    location: "Remote",
-    position: "Software Engineer",
-    period: "Mar 2024 - Present",
+    company: "Segundo Plano",
+    location: "Madrid, España",
+    position: "Alumna de practicas",
+    period: "Mar 2025 - Present",
     achievements: [
-      "Designed and implemented business logic for AWS Lambdas using the Serverless Framework, forming the backbone of the application's functionality and ensuring seamless backend operations.",
-      "Built a comprehensive admin panel for managing content, user data, and analytics.",
-      "Contributed to the development and integration of a scalable CMS for managing blog content and other platform data.",
-      "Reduced database costs by introducing materialized views, optimizing query performance and resource usage.",
-      "Drove the integration of a custom affiliate marketing system, enabling seamless tracking and reporting of referrals and user activities.",
-      "Integrated Text-to-Speech (TTS) services for enhanced user experiences, optimizing both frontend and backend systems.",
-      "Collaborated with cross-functional teams to deliver high-quality features, actively reviewing pull requests to ensure code quality, adherence to standards, and efficient implementation.",
+      "Prácticas como desarrolladora web en Segundo Plano, participando en un proyecto simulado junto a otros compañeros.",
+      "Desarrollo de funcionalidades con Symfony en el backend y exploración de Astro para el frontend.",
+      "Tareas enfocadas en la integración, la colaboración en equipo y el uso de control de versiones con Git.",
     ],
   },
-  {
+  /*{
     company: "DevCrew",
     location: "Coimbatore, India",
     position: "Software Engineer",
@@ -41,81 +37,63 @@ export const workExperience = [
       "Built interactive UIs with React.js, focusing on reusable components and performance optimization.",
       "Implemented JavaScript-based features like user authentication and real-time updates.",
     ],
-  },
+  },*/
 ];
 
 export const education = [
   {
-    institution: "Sri Krishna College of Engineering and Technology",
-    location: "Coimbatore, India",
-    degree: "B Tech Information Technology",
-    period: "Jun 2021 - Jun 2025",
-    achievements: [
-      "President of the Department of Information Technology",
+    institution: "IES Vista Alegre",
+    location: "Madrid, España",
+    degree: "Desarrollo de Aplicaciones Web",
+    period: "Sept 2023 - Jun 2025",
+    achievements:  [
+      /*"President of the Department of Information Technology",
       "G20 student delegate",
       "Organized multiple technical workshops and events",
-      "Represented my college in multiple national and international hackathons and won.",
+      "Represented my college in multiple national and international hackathons and won.",*/
     ],
   },
 ];
 export const skills = {
   programmingLanguages: [
-    "TypeScript",
-    "JavaScript",
-    "Python",
-    "C++",
+    "C",
     "Java",
-    "Solidity",
+    "JavaScript",
+    "PHP",
+    "Phyton",  
   ],
   frontendDevelopment: [
     "Nextjs",
-    "Reactjs",
-    "React Native",
-    "Shadcn UI",
+    "Reactjs",  
     "Tailwind CSS",
     "HTML",
     "CSS",
   ],
-  backendDevelopment: ["Nodejs", "Expressjs"],
-  databaseAndStorage: ["PostgreSQL", "Drizzle (ORM)"],
-  cloudAndDevOps: ["AWS"],
+  backendDevelopment: ["Nodejs",],
+  databaseAndStorage: ["MySQL",],
+  cloudAndDevOps: ["GitHub","phpMyAdmin",],
   toolsAndServices: [
-    "Clerk (Auth)",
-    "Sanity (CMS)",
-    "Tinybird (analytics)",
-    "Zod",
-    "Sentry",
-    "Mixpanel",
-    "Trigger.dev",
+    "Symfony (Framework PHP)",
+    "Astro (Framework JS)",
+    "Visual Studio Code",
+    "Postman",
   ],
 };
 
 export const projects = [
   {
-    title: "Net Zero Carbon Emissions",
-    github: "https://github.com/rishikesh2003/Prodigi",
+    title: "OneLink",
+    github: "https://github.com/segundoplano/onelink",
     description: [
-      "WiFi-RTT: Developed indoor occupancy tracking for energy optimization.",
-      "IoT Solutions: Implemented smart monitoring for energy efficiency and food waste reduction.",
-      "Real-Time Tracking: Designed systems to monitor carbon emissions and optimize resources.",
-      "Data-Driven Insights: Analyzed user patterns for adaptive energy and food management.",
-      "Reward Integration: Built QR-based green points system to incentivize eco-friendly actions.",
-    ],
-  },
-  {
-    title: "Mental Aarog",
-    github: "https://github.com/rishikesh2003/mental-aarog",
-    description: [
-      "A holistic mental health app leveraging AI and blockchain for early detection and personalized solutions for depression.",
-      "Features include social media analysis (ML-based sentiment tracking), PHQ-9 assessments, smartwatch integration for sleep and activity data, guided meditation, and smart suggestions for food, travel, music, and movies.",
-      "Developed a rewards system using MAG crypto token on Ethereum, enabling user engagement through in-app incentives.",
-      "Secure storage implemented via web3.storage, IPFS, and FileCoin.",
-      "Built with React, Supabase, Node.js, Flask, and Solidity, showcasing seamless integration of health tech and blockchain.",
+      "Creación de tarjetas personales con enlaces.",
+      "Variedad de planes gratuitos y de pago.",
+      "Variedad y capacidad de edición de plantillas.",
+      "Wallet para guardar las tarjetas de tus amigos y estar conectados.",
     ],
   },
 ];
 
-export const awards = [
+/*export const awards = [
   {
     name: "IEEE YESIST12 Hackathon",
     issuer: "IEEE",
@@ -166,3 +144,4 @@ export const awards = [
     position: "Most Impactful Hack",
   },
 ];
+*/
